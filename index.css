@@ -169,6 +169,7 @@
 .home-text06 {
   color: var(--dl-color-gray-black);
   text-align: center;
+  font-family: "Playfair Display";
   margin-bottom: var(--dl-space-space-fiveunits);
 }
 .home-cta-btn-container {
@@ -293,7 +294,14 @@
   text-decoration: none;
 }
 .home-text12 {
-  color: var(--dl-color-gray-black);
+  font-size: 16px;
+  font-style: normal;
+  font-family: "Playfair Display";
+  font-weight: 400;
+  line-height: 1.55;
+  letter-spacing: 1px;
+  text-transform: none;
+  text-decoration: none;
 }
 .home-card1 {
   width: 30%;
@@ -407,13 +415,14 @@
 }
 .home-text16 {
   align-self: center;
+  text-align: center;
 }
 .home-content-container3 {
   display: flex;
-  align-items: flex-start;
+  align-items: center;
   margin-bottom: var(--dl-space-space-fourunits);
-  flex-direction: row;
-  justify-content: center;
+  flex-direction: column;
+  justify-content: flex-start;
 }
 .home-about-1 {
   width: 695px;
@@ -678,14 +687,9 @@
   margin-bottom: var(--dl-space-space-unit);
 }
 .home-text30 {
-  font-size: 16px;
   font-style: normal;
   font-family: "Playfair Display";
   font-weight: 400;
-  line-height: 1.55;
-  letter-spacing: 1px;
-  text-transform: none;
-  text-decoration: none;
 }
 .home-faq2 {
   width: 85%;
